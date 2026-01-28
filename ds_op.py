@@ -1,0 +1,44 @@
+string_1 = "12345"
+list_1 = [1,2,3,4,5]
+tuple_1 = (1,2,3,4,5)
+dict_1 = {"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7}
+set_1 = {1,2,3,4,5,6,7}
+
+print(string_1[2])
+print(list_1[3])
+print(tuple_1[1])
+print(tuple_1[-1])
+print(tuple_1[-2:4],"")
+
+print(string_1[-2])
+print(string_1[2:5])
+print(string_1[-1])
+print(list_1[-3])
+print(list_1[:3])
+
+print(len(string_1))
+print(len(list_1))
+print(len(tuple_1))
+print(len(dict_1))
+print(len(set_1))
+string_1 += "8"
+list_1.append(8)
+set_1.add(8)
+dict_1["eight"]=8
+print(string_1)
+print(list_1)
+print(set_1)
+print(dict_1)
+
+s="python"
+name="pankaj"
+print(s,name,"      ", "hgjgkg")
+
+print(s+name)
+print(s*6)
+print(s.replace("y","gh"))
+print(s.upper())       
+print(s.lower())        
+print(s.capitalize())   
+print(s.replace("p", "q"))  
+print(s.split("t"))    
