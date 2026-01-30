@@ -42,3 +42,37 @@ print(s.lower())
 print(s.capitalize())   
 print(s.replace("p", "q"))  
 print(s.split("t"))    
+
+x=list_1.pop(4)
+y=list_1.pop(0)
+print(x,y)
+
+list_1sorted =list_1.sort()
+print(list_1sorted)
+list_1.reverse()
+len(list_1)
+sum(list_1)
+
+
+
+print(tuple_1.count(2))
+print(tuple_1.index(3))
+
+
+string_2 = "london"
+list_2 = ["L","O","N","D","O","N"]
+tuple_2 =("L","O","N","D","O","N")
+c1= string_2.count("n")
+c2= list_2.count("N")
+c3= tuple_2.count("N")
+
+print(c1,c2,c3)
+
+set_2 ={10,11,12}
+dict_2 ={"nine":9,"ten":10,"elevan":11,}
+
+set_1.update(set_2)
+dict_1.update(dict_2)
+
+print(set_1)
+print(dict_1)
